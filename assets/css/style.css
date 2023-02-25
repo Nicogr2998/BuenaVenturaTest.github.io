@@ -20655,6 +20655,7 @@ input[type=checkbox]:checked + label:after {
 * {
     margin: 0;
     padding: 0;
+    max-width: 150%;
     box-sizing: border-box;
 }
 
