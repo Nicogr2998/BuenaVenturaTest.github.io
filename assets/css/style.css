@@ -20655,7 +20655,7 @@ input[type=checkbox]:checked + label:after {
 * {
     margin: 0;
     padding: 0;
-    max-width: 150%;
+   /* max-width: 100%;*/
     box-sizing: border-box;
 }
 
@@ -20664,10 +20664,10 @@ body {
 }
 
 .contenedor {
-    width: 90%;
+   /* width: 90%; */
     max-width: 1200px;
     overflow: hidden;
-    margin: auto;
+    margin: 0 auto;
     padding: 60px 0;
 }
 
