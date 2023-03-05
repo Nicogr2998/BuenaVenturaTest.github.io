@@ -765,3 +765,13 @@
         e.preventDefault ? e.preventDefault() : (e.returnValue = false);
     });
 })(jQuery);
+
+$(document).ready(function() {
+    $(".form-control").focusin(function() {
+      $(".search").addClass("search-focus");
+    });
+    $(".form-control").focusout(function() {
+      $(".search").removeClass("search-focus");
+    });
+  });
+  
