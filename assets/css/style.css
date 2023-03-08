@@ -19547,7 +19547,7 @@ input[type=checkbox]:checked + label:after {
 /*  17. Breadcrumb
 /*----------------------------------------*/
 .breadcrumb-height {
-  min-height: 460px;
+  min-height: 785px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
