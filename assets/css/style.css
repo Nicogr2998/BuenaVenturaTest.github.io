@@ -20725,7 +20725,7 @@ body {
 }
 
 .agregar-imagen {
-    object-fit: none;
+    object-fit: scale-down;
     width: 60%;
     border-radius: 10px;
     transform: scale(0);
